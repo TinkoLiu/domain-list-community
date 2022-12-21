@@ -1,11 +1,16 @@
 # List of all domains that have access point in China mainland
 
+# 123云盘
+123pan.com
+
 # Advertisment & Analytics
 include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:aws-cn
 include:baijiayun
+include:bootcdn
 include:bootcss
 include:dwion
 include:maocloud
@@ -17,6 +22,7 @@ include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
+
 funcdn.com
 
 # Bank & Finance & Insurance & Securities
@@ -33,11 +39,11 @@ include:58tongcheng
 include:ctrip
 include:dangdang
 include:eleme
-include:ganji
 include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:miaomiaozhe
 include:mogujie
 include:pinduoduo
 include:smzdm
@@ -89,21 +95,45 @@ include:youku
 include:yy
 include:zhanqi
 
-# Food & Drink
-include:heytea
+wo1wan.com
 
 # Forums
 include:chiphell
-include:douban
 include:erji
 include:hacpai
 include:kechuang
 include:nga
 include:stage1st
-include:zhihu
+
+52pojie.cn # 吾爱破解
+itsk.com # IT天空论坛
+klpbbs.com # 苦力怕论坛
+mcbbs.net # MCBBS论坛
+
+# Fofa网站测绘
+fofa.info
+
+# 在线工具
+itdog.cn # itdog网站工具箱
+webmasterhome.cn # 站长之家
+
+# 快对作业
+kuaiduizuoye.com
+
+# IP 定位网站
+include:ipip
+
+ip138.com
+ipplus360.com # 豫ICP备17017462号-1 埃文科技
 
 # Logistics
 include:sf-express
+
+# MC百科
+mcmod.cn
+
+# 门户网站
+moulem.com
 
 # Media & News & Press
 include:category-media-cn
@@ -133,7 +163,6 @@ include:flowus
 include:foundertype
 include:geetest
 include:hanyi
-include:ipip
 include:jianshu
 include:jinshuju
 include:keep
@@ -144,6 +173,7 @@ include:liepin
 include:mafengwo
 include:meitu
 include:moji
+include:nowcoder
 include:polyv
 include:renren
 include:vaptcha
@@ -153,34 +183,33 @@ include:wolai
 include:yinxiang
 include:zdns
 
-# Science & Technology & Knowledge & Scholar & Press & E-learning
+# Science & Technology & Knowledge & Scholar & Press & E-learning & Education
+include:category-education-cn
 include:category-mooc-cn
 include:category-scholar-cn
 include:category-wiki-cn
 include:cugbonline
 include:guokr
-include:hujiang
 include:ihuman
-include:koolearn
 include:wanfang
-include:xueersi
-include:yuanfudao
-include:zhihuishu
+
+# Social Media
+include:category-social-media-cn
 
 # Software development related
-include:coding
-include:csdn
-include:deepin
-include:gitee
-include:jinrishici
-include:juejin
-include:oschina
-include:pgyer
-include:rubychina
-include:sxl
-include:segmentfault
-include:tipdm
-include:xueyuanjun
+include:category-dev-cn
+
+# 信息学
+include:51nod
+
+acwing.com
+hihocoder.com
+jisuanke.com
+luogu.com.cn
+oi-wiki.com
+openjudge.cn
+uoj.ac
+vijos.org
 
 # Tech companies & Orginations
 include:alibaba
@@ -189,6 +218,7 @@ include:baidu
 include:bytedance
 include:didi
 include:huawei
+include:iflytek
 include:kingsoft
 include:meizu
 include:netease
@@ -202,6 +232,7 @@ include:xiaomi
 include:xunlei
 
 # Telecommunication
+include:chinabroadnet 
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
@@ -217,9 +248,11 @@ mojidict.com
 
 # Wiki
 jikipedia.com
+qiuwen.wiki
+shidianbaike.com
 
 # 餐饮类
-haidilao.com
+include:category-food-cn
 
 # 流利说
 liulishuo.com
@@ -245,12 +278,33 @@ tibetairlines.com.cn # 西藏航空
 variflight.com # 飞常准
 xiamenair.com # 厦门航空
 
+# Enhance Gaming
+heavenlywind.cc
+steampp.net
+
+## Android Emulator
+lsplayer.com
+yeshen.com
+
 # Others
 include:8btc
 include:jibencaozuo
 include:sinopec
+include:category-enterprise-query-platform-cn
 
+upe.net # 优启通官网
 suzuki-china.com # 铃木中国官网
+
+# 应城门户网站
+chugou360.com
+ycrx360.com
+
+# 即刻雾联（北京）
+# Refer: https://github.com/v2fly/domain-list-community/pull/1352#issuecomment-1345476790
+jikeiot.cloud
+
+zyh365.com # 志愿汇
+
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -372,7 +426,6 @@ suzuki-china.com # 铃木中国官网
 900.la
 917.com
 91danji.com
-91yunxiao.com
 95508.com
 9553.com
 962.net
@@ -398,7 +451,6 @@ airchangan.com
 airguilin.com
 aisee.tv # 粤ICP备10217959号-12
 aiskycn.com
-aiyunxiao.com
 aizhan.com
 aldwx.com # 京ICP备17030349号-1
 alittle-tea.com
@@ -424,7 +476,6 @@ bamenzhushou.com
 bangongziyuan.com
 baofeng.com
 baoxianshichang.com
-bcy.net
 bearychat.com
 beihaidc.com
 beijing-lipin.com
@@ -504,8 +555,6 @@ cjol.com
 clouddn.com
 cloudxns.com
 cnanzhi.com
-cnbeta.com
-cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnlaw.net
@@ -612,7 +661,6 @@ enterdesk.com
 eoeandroid.com
 eolink.com
 excelhome.net
-expreview.com
 extfans.com
 f.cx
 faloo.com
@@ -636,7 +684,6 @@ freebuf.com
 fugetech.com
 fuwj.com
 fxxz.com
-fyxz.com
 fzaqjy.com
 game234.com
 gameabc.com
@@ -648,14 +695,12 @@ gdjdxy.com
 gdliontech.com
 gdrc.com
 geilicdn.com
-genelinkout.com
 getui.com
 gezida.com
 gfan.com
 giocdn.com
 globrand.com
 gm86.com
-gmallbio.com
 gmz88.com
 gobasearcher.com
 gold678.com
@@ -733,7 +778,6 @@ ibuychem.com
 icaidao.com
 ichangtou.com
 idongdong.com
-iflytek.com
 igao7.com
 iheima.com
 ijiandao.com
@@ -748,7 +792,6 @@ infinitynewtab.com
 infoq.com
 infoqstatic.com
 ip-cdn.com
-ip138.com
 ipinyou.com
 iranshao.com
 irs01.com
@@ -760,7 +803,6 @@ iteye.com
 itjuzi.com
 itmop.com
 iyiou.com
-iyunxiao.com
 izuche.com
 jandan.net
 jb51.com
@@ -812,7 +854,6 @@ kankanews.com
 kantianqi.net
 kanzhun.com
 kaopu001.com
-keboyunxiao.com
 kejet.net
 kf5.com
 kimiss.com
@@ -939,6 +980,7 @@ newbandeng.com
 newyx.net
 noknok.cn
 nowcoder.com
+nowcoder.net
 nowscore.com
 nruan.com
 ntalker.com
@@ -985,7 +1027,6 @@ pipaw.net
 pptbest.com
 pubyun.com
 qc188.com
-qcc.com
 qcds.com
 qd8.com
 qd-metro.com
@@ -1132,7 +1173,6 @@ tuwan.com
 tuwanjun.com
 txrjy.com # 沪ICP备12002292号
 u.tools
-ubuntukylin.com # 津ICP备15002470号-2 优麒麟
 ucbug.com
 uggame.com
 uoko.com
@@ -1166,7 +1206,6 @@ webterren.com
 weicaifu.com
 weidian.com
 weilaicaijing.com
-weilaiyunxiao.com
 weiphone.net
 weixing.com
 weiyangx.com
@@ -1242,7 +1281,6 @@ yaoyl.com
 yaozh.com
 ycgame.com
 yeepay.com
-yeshen.com
 yesky.com
 yh31.com
 yigao.com
@@ -1290,7 +1328,6 @@ yundun.com
 yunkanpan.com # 京ICP备15036006号-3
 yunqishi.net
 yunshipei.com
-yunxiao.com
 yunzhijia.com
 yupoo.com
 yuzua.com
@@ -1343,11 +1380,6 @@ zuhaowan.com
 zuidaima.com
 zuowen8.com
 zuowenwang.net
-
-# 京ICP备14061319号-2
-jindidata.com
-tianyancha.com
-zhuanxiandai.com
 
 # 京ICP备12006877号-1
 fm3838.com

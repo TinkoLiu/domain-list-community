@@ -23,6 +23,7 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
+include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
@@ -42,16 +43,20 @@ include:readthedocs
 include:redis
 include:remirepo
 include:ruby
+include:rust
 include:scala
 include:stackexchange
 include:strikingly
+include:tencent-dev
 include:termux
 include:thelinuxfoundation
+include:topcoder
 include:unity
 include:v8
 include:vim
 include:xda
 
+adventofcode.com
 alpinelinux.org
 apache.org
 atom.io
@@ -65,6 +70,7 @@ centos.org
 chocolatey.org
 clojure.org
 cnpmjs.org
+codeberg.org
 cygwin.com
 cython.org
 deno.land
@@ -75,12 +81,15 @@ ffmpeg.org
 freebsd.org
 gentoo.org
 getcomposer.org
+getzola.org
 git-scm.com
 gnu.org
 
 # PuTTY and some software official websites.
 greenend.org.uk
 
+hex.pm
+hexdocs.pm
 ius.io
 jenkins.io
 js.org
@@ -116,9 +125,11 @@ postgresql.org
 r-project.org
 raspberrypi.org
 raspbian.org
+regex101.com
 rpmfusion.org
 scientificlinux.org
 scoop.sh
+shellcheck.net
 shields.io
 sqlite.org
 sublimetext.com
@@ -129,6 +140,8 @@ termius.com
 unpkg.com
 videojs.com
 videolan.org
+wapm.io
+wasmer.io
 wireshark.org
 x.org
 xposed.info
